@@ -92,6 +92,13 @@ body {
   font-weight: 400;
 }
 
+.error-icon {
+  display: none;
+  position: absolute;
+  left: 69.13%;
+  top: 13px;
+}
+
 .button {
   width: 64px;
   height: 48px;
@@ -104,6 +111,15 @@ body {
   text-align: center;
   padding: 1.5rem 0;
   cursor: pointer;
+  border: none;
+}
+
+.email-error {
+  display: none;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  color: var(--soft-red);
+  padding-left: 2.4rem;
 }
 
 .attribution { 

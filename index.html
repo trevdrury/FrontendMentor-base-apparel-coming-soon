@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
@@ -35,10 +35,14 @@
       </p>
 
       <div class="content__form">
-        <input type="text" class="email" placeholder="Email Address">
-        <div class="button">
+      
+        <input type="text" id="emailField" class="email" placeholder="Email Address">
+        <img src="./assets/icon-error.svg" alt="error" id="errorIcon" class="error-icon">
+        <button type="submit" id="btn" class="button">
           <img src="./assets/icon-arrow.svg" alt="arrow">
-        </div>
+        </button>
+      
+        <p id='errorMessage' class="email-error">Please provide a valid email</p>
       </div>
     </div>
 
@@ -47,8 +51,10 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Trevor Drury</a>.
+      Coded by <a href="#">Trevor Druryv</a>.
     </p>
   </footer>
+
+  <script src="./main.js" />
 </body>
 </html>
