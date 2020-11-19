@@ -1,0 +1,22 @@
+{
+  "name": "base-apparel-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevdrury/FrontendMentor-base-apparel-coming-soon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevdrury/FrontendMentor-base-apparel-coming-soon/issues"
+  },
+  "homepage": "https://github.com/trevdrury/FrontendMentor-base-apparel-coming-soon#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
