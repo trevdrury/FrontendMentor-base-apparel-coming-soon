@@ -96,8 +96,9 @@ body {
       height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       text-align: left;
+      padding-top: 4.9rem;
       padding-left: 11.45vw;
     }
 
