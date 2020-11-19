@@ -185,6 +185,7 @@ body {
       left: 0;
       border: 1px solid $desaturated-red;
       background: $form-background;
+      color: $dark-grayish-red;
       padding-left: 2.4rem;
       font-family: 'Josefin Sans', sans-serif;
     }
@@ -233,6 +234,25 @@ body {
     button:hover::before {
       display: inline;
     }
+  }
+
+  #emailField {
+    position: absolute;
+    outline: none;
+  }
+
+  #errorIcon {
+    display: none;
+    position: absolute;
+    top: 28%;
+    left: 68%;
+  }
+
+  #errorMessage {
+    display: none;
+    margin: 0;
+    padding: 0;
+    color: $soft-red;
   }
 }
 

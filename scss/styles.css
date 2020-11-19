@@ -217,6 +217,7 @@ body {
   left: 0;
   border: 1px solid #ce9797;
   background: #FFF4F4 84.51%;
+  color: #413a3a;
   padding-left: 2.4rem;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -297,5 +298,24 @@ body {
 
 .container form button:hover::before {
   display: inline;
+}
+
+.container #emailField {
+  position: absolute;
+  outline: none;
+}
+
+.container #errorIcon {
+  display: none;
+  position: absolute;
+  top: 28%;
+  left: 68%;
+}
+
+.container #errorMessage {
+  display: none;
+  margin: 0;
+  padding: 0;
+  color: #f96262;
 }
 /*# sourceMappingURL=styles.css.map */
